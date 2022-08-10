@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kartik Patel | Portfolio</title>
+    <script src="https://kit.fontawesome.com/120409c6ef.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <!-- <script src="home.js"></script> -->
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <span>PortFolio</span>
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skill">Skills</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#project">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closeside()"></i>
+                  </ul>
+                <i class="fa-solid fa-bars" onclick="openside()"></i>
+            </nav>
+            <div class="headertext">
+                <h1>Hi, I'm <span>Kartik Patel</span></h1>
+                <p>Software Engineer</p>
+                <a href="assets/PDF/Kartik_Patel_Resume.pdf" download="Kartik-CV" class="btn btn2">Download CV</a>
+            </div>
+        </div>
+    </div>
+<!-- ---------------------------about----------------------------------------------- -->
+    <div id="about">
+        <div class="aboutcontainer">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="assets/images/profile3.JPG" alt="">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="subtitle">About Me</h1>
+                    <p>I am Kartik Patel.<br>I am an energetic, ambitious student pursuing a B.Tech in Computer Engineering in 7th Semester at the Gandhinagar Institute of Technology.I am living in Ahmedabad. I am looking for an entry-level position to kickstart my career in the software developing. I wish to work in a dynamic organisation that will contribute to my professional and personal growth while I contribute to the growth of the company as well as engage in opportunities to further the company’s goals. I  am excellent in working with others to achieve a certain objective on time and with  excellence.  I  am  always  ready  to  learn  new  things  and  take responsibilities of my work. </p>
+
+                    <div class="tabtitle">
+                        <p class="tablinks active" onclick="opentab('education')">Education</p>
+                        <p class="tablinks" onclick="opentab('experience')">Experience</p>
+                    </div>
+
+                    <div class="tabcontent activetab" id="education">
+                        <ul>
+                            <li><span>2019</span><br>Bachelor of Computer Engineering</li>
+                            <li><span>2018</span><br>Higher Secondary School from Asia English School</li>
+                            <li><span>2016</span><br>Secondary School from Asia English School</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="tabcontent" id="experience">
+                        <ul>
+                            <li><span>Present</span><br>Student</li>
+                            <li><span>2022</span><br>Internship at Axisray India</li>
+                        </ul>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+<!-- ----------------------------------------------skills--------------------------------- -->
+
+<div id="skill">
+<div class="sheading">Skills</div>
+    <div class="scontent"><i class="uil uil-caret-right"></i>  I have learned various languages and FrameWorks such as JAVA, Frontend Technology like HTML, CSS, JavaScript, JQuery, databases like MYSQL and MongoDB and SpringFramework which include SpringBoot and SpringProfile.
+        <ul>
+            <li> <span>JAVA:-</span>Java is a widely used object-oriented programming language and software platform that runs on billions of devices, including notebook computers, mobile devices, gaming consoles, medical devices and many others. The rules and syntax of Java are based on the C and C++ languages.</li>
+
+            <li><span>Frontend Technologies:-</span>Frontent technologies are the technologies that give UI interface to the website, mainly HTML, CSS, JavaScript are the basic technologies.</li>
+
+            <li><span>  Databases:-</span>A database is an organized collection of structured information, or data, typically stored electronically in a computer system. A database is usually controlled by a database management system (DBMS)</li>
+
+            <li><span>  SpringFramework:-</span>The Spring Framework (Spring) is an open-source application framework that provides infrastructure support for developing Java applications.</li>
+        </ul>
+    </div>
+<div class="skillcontainer">  
+    <div class="card">
+      <div class="box">
+        <div class="percent">
+          <svg>
+            <circle cx="70" cy="70" r="70"></circle>
+            <circle cx="70" cy="70" r="70"></circle>
+          </svg>
+          <div class="number">
+            <h2>75<span>%</span></h2>
+          </div>
+        </div>
+        <h2 class="text">J2SE</h2>
+        <span class="subtext">Core JAVA</span>
+      </div>
+    </div>
+    <div class="card">
+      <div class="box">
+        <div class="percent">
+          <svg>
+            <circle cx="70" cy="70" r="70"></circle>
+            <circle cx="70" cy="70" r="70"></circle>
+          </svg>
+          <div class="number">
+            <h2>75<span>%</span></h2>
+          </div>
+        </div>
+        <h2 class="text">J2EE</h2>
+        <span class="subtext">Advanced JAVA</span>
+      </div>
+    </div>
+    <div class="card">
+      <div class="box">
+        <div class="percent">
+          <svg>
+            <circle cx="70" cy="70" r="70"></circle>
+            <circle cx="70" cy="70" r="70"></circle>
+          </svg>
+          <div class="number">
+            <h2>60<span>%</span></h2>
+          </div>
+        </div>
+        <h2 class="text">Frontend <br> Technology</h2>
+        <span class="subtext">HTML5,CSS,<br>JavaSript,JQuery</span>
+      </div>
+    </div>
+    <div class="card">
+      <div class="box">
+        <div class="percent">
+          <svg>
+            <circle cx="70" cy="70" r="70"></circle>
+            <circle cx="70" cy="70" r="70"></circle>
+          </svg>
+          <div class="number">
+            <h2>60<span>%</span></h2>
+          </div>
+        </div>
+        <h2 class="text">Database</h2>
+        <span class="subtext">MySQL,MongoDB</span>
+      </div>
+    </div>
+    <div class="card">
+      <div class="box">
+        <div class="percent">
+          <svg>
+            <circle cx="70" cy="70" r="70"></circle>
+            <circle cx="70" cy="70" r="70"></circle>
+          </svg>
+          <div class="number">
+            <h2>45<span>%</span></h2>
+          </div>
+        </div>
+        <h2 class="text">Spring <br> Framework</h2>
+        <span class="subtext">SpringBoot & <br>SpringProfile</span>
+      </div>
+    </div>
+</div>
+</div>
+<!-- ----------------------------------------------services--------------------------------- -->
+
+<div id="services">
+    <div class="servicecontainer">
+        <h1 class="subtitle">My Services</h1>
+        <div class="servicelist">
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Frontend Developer</h2>
+                <p>Frontend developer is a developer that creates the UI and the frontend of the website by HTML, CSS, JavaScript, JQueery.</p>
+                <a href="#">Learn More</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-laptop-code"></i>
+                <h2>Backend Developer</h2>
+                <p>Backend Developer is a developer that writes the logic of the website that contains all the business logic in languages like JAVA and PYTHON.</p>
+                <a href="#">Learn More</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- ---------------------------------------------projects------------------------------------ -->
+
+<div id="project">
+    <div class="projcontainer">
+        <h1 class="subtitle">Projects</h1>
+        <div class="projlist">
+            <div class="proj">
+                <img src="assets/images/project1.png">
+                <div class="layer">
+                    <h3>Fee Payment and Management System</h3>
+                    <p>It is a fee payment and management system which helps students to pay fee all the types of fees that are collected by the education institute and any education institute can collect and take record of students.</p>
+                    <a href="https://github.com/kp0312/Fee-management-and-payment-system.git"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!-- ---------------------------------------------contact------------------------------------ -->
+<div id="contact">
+  <div class="ccontainer">
+    <div class="row">
+      <div class="contactleft">
+        <h1 class="subtitle">Contact Me</h1>
+        <p><i class="fa-solid fa-paper-plane"></i>kvpatel0312@gmail.com</p>
+        <p><i class="fa-solid fa-phone"></i>+91 7984839253</p>
+        <div class="socialicon">
+          <a href="https://twitter.com/kp_visi0n"><i class="fa-brands fa-square-twitter"></i></a>
+          <a href="https://www.instagram.com/_kxrtik.exe_"><i class="fa-brands fa-instagram"></i></a>
+          <a href="https://www.linkedin.com/in/kartik-patel-5537631b9"><i class="fa-brands fa-linkedin"></i></a>
+        </div>
+      </div>
+      <div class="contactright">
+        <form action="#contact" name="submit-to-google-sheet">
+          <input type="text" name="Name" placeholder="Your name" required>
+          <input type="email" name="Email" placeholder="Your Email" required>
+          <textarea name="Message" id="" cols="30" rows="6" placeholder="Your Message"></textarea>
+          <button type="submit" class="btn btn2 c">Submit</button>
+        </form>
+        <span id="msg"></span>
+      </div>
+    </div>
+  </div>
+  <div class="copyright">
+     <p>Copyright ©️ 2022 Kartik</p>
+  </div>
+</div>
+
+
+<!-- ------------------------------------scripting------------------------------------- -->
+<script>
+    var tablinks = document.getElementsByClassName("tablinks");
+  var tabcontents = document.getElementsByClassName("tabcontent");
+  var sidemenu = document.getElementById("sidemenu");
+
+function opentab(tabname){
+    for(tablink of tablinks){
+        tablink.classList.remove("active");
+    }
+    
+    for(tabcontent of tabcontents){
+        tabcontent.classList.remove("activetab");
+    }
+    event.currentTarget.classList.add("active");
+    document.getElementById(tabname).classList.add("activetab");
+}
+
+function openside(){
+  var sidemenu = document.getElementById("sidemenu");
+  sidemenu.style.right= "0";
+  console.log();
+}
+
+
+function closeside(){
+  sidemenu.style.right="-200px";
+}
+
+
+  const scriptURL = 'https://script.google.com/macros/s/AKfycbzicyOO7d2DR2mR3XVic8Y1Zngw1wuZkHTlOlvhhGFK9qOOXss071UxCgZtysRqoiGz/exec'
+  const form = document.forms['submit-to-google-sheet']
+
+  form.addEventListener('submit', e => {
+    e.preventDefault()
+    fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+      .then(response => {
+        msg.innerHTML = "Message sent successfull"
+        setTimeout(function(){
+          msg.innerHTML = ""
+        },5000)
+        form.reset()
+      })
+      .catch(error => console.error('Error!', error.message))
+  })
+</script>
+
+
+
+
+
+</body>
+</html>
